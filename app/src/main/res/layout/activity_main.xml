@@ -7,15 +7,47 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="/" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="*" />
+
+    </LinearLayout>
+
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_weight="0.5"
+        android:ems="10"
         android:inputType="textPersonName"
         android:text="12345" />
 
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="567890" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -24,54 +56,33 @@
         android:layout_weight="0.5"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="67890" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="37dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button24"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@color/cardview_dark_background"
-            android:text="/" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_weight="1"
-            android:backgroundTint="@color/cardview_dark_background"
-            android:text="*" />
-
-    </LinearLayout>
+        android:text="098765" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button26"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_dark_background"
             android:text="/" />
 
         <Button
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_dark_background"
             android:text="*" />
 
     </LinearLayout>
+
+
 
 </LinearLayout>
